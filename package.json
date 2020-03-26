@@ -7,9 +7,13 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
+    "file-saver": "^2.0.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
+    "react-dropzone": "^10.2.1",
+    "react-dropzone-component": "^3.2.0",
+    "react-dropzone-uploader": "^2.11.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {

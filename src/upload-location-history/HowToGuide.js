@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {ListGroup} from "react-bootstrap";
 
 
+
 class HowToGuide extends Component {
     constructor(props) {
         super(props);
@@ -12,10 +13,10 @@ class HowToGuide extends Component {
             <div>
                 <h3>How To Guide</h3>
                 <ListGroup variant="flush">
-                    <ListGroup.Item>'Location History' should be pre-selected</ListGroup.Item>
-                    <ListGroup.Item>Click 'Next Step'</ListGroup.Item>
-                    <ListGroup.Item>Under 'Delivery Method,' select 'Send download link via email'</ListGroup.Item>
-                    <ListGroup.Item>Select 'Create export'</ListGroup.Item>
+                    <ListGroup.Item>'<b>Location History</b>' should be pre-selected</ListGroup.Item>
+                    <ListGroup.Item>Click '<b>Next Step</b>'</ListGroup.Item>
+                    <ListGroup.Item>Under '<b>Delivery Method</b>,' select '<b>Send download link via email</b>'</ListGroup.Item>
+                    <ListGroup.Item>Select '<b>Create export</b>'</ListGroup.Item>
                 </ListGroup>
             </div>
         );
