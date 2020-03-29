@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import GoogleTakeout from "./GoogleTakeout";
 import UploadComponent from "./UploadComponent";
+import {Container, Row} from 'react-bootstrap'
 
 class LocationHistoryPage extends Component {
     constructor(props) {
@@ -10,9 +11,13 @@ class LocationHistoryPage extends Component {
     render() {
         return (
             <div>
-                <h1>CoronaTrace - Upload Location History</h1>
-                <GoogleTakeout/>
-                <UploadComponent/>
+                <Container>
+                    <h1 className={'main-header'}>CoronaTrace - Upload Location History</h1>
+                    <hr/>
+                    <GoogleTakeout/>
+                    <hr/>
+                    <UploadComponent/>
+                </Container>
             </div>
         );
     }

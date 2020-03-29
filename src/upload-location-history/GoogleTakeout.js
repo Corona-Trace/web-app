@@ -31,12 +31,14 @@ class GoogleTakeout extends Component {
                 <Container>
                     <Row>
                         <h1>Google Takeout</h1>
+
                     </Row>
+                    <br/>
                     <Row>
                         <Col xs={4}>
                             <Form onSubmit={this.handleAccountDownloadButtonClick} id={'email-form'}>
                                 <Form.Group controlId="formBasicEmail">
-                                    <h3>Email address</h3>
+                                    <h3>Email Address</h3>
                                     <Form.Control type="email" placeholder="your@email.com" onChange={this.handleEmailChange}/>
                                     <Form.Text className="text-muted">
                                         We'll never share your email with anyone else.
