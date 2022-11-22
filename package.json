@@ -14,7 +14,7 @@
     "react-dropzone": "^10.2.1",
     "react-dropzone-component": "^3.2.0",
     "react-dropzone-uploader": "^2.11.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
